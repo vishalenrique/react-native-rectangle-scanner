@@ -10,11 +10,11 @@ import com.rectanglescanner.helpers.CapturedImage;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
 
-import org.opencv.core.Core;
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.opencv.core.MatOfInt;
-import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.modified.core.Core;
+import org.opencv.modified.core.CvType;
+import org.opencv.modified.core.Mat;
+import org.opencv.modified.core.MatOfInt;
+import org.opencv.modified.imgcodecs.Imgcodecs;
 
 import java.util.UUID;
 import java.io.File;

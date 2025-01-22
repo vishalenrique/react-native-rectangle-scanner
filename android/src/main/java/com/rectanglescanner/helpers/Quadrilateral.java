@@ -1,10 +1,10 @@
 package com.rectanglescanner.helpers;
 
-import org.opencv.core.MatOfPoint;
-import org.opencv.core.Rect;
-import org.opencv.core.Mat;
-import org.opencv.core.Point;
-import org.opencv.core.Size;
+import org.opencv.modified.core.MatOfPoint;
+import org.opencv.modified.core.Rect;
+import org.opencv.modified.core.Mat;
+import org.opencv.modified.core.Point;
+import org.opencv.modified.core.Size;
 
 import android.os.Bundle;
 

@@ -15,15 +15,15 @@ import com.rectanglescanner.helpers.CapturedImage;
 
 import android.view.Surface;
 
-import org.opencv.core.Core;
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.opencv.core.MatOfPoint;
-import org.opencv.core.MatOfPoint2f;
-import org.opencv.core.Point;
-import org.opencv.core.Size;
-import org.opencv.imgcodecs.Imgcodecs;
-import org.opencv.imgproc.Imgproc;
+import org.opencv.modified.core.Core;
+import org.opencv.modified.core.CvType;
+import org.opencv.modified.core.Mat;
+import org.opencv.modified.core.MatOfPoint;
+import org.opencv.modified.core.MatOfPoint2f;
+import org.opencv.modified.core.Point;
+import org.opencv.modified.core.Size;
+import org.opencv.modified.imgcodecs.Imgcodecs;
+import org.opencv.modified.imgproc.Imgproc;
 
 import android.os.Bundle;
 import java.util.ArrayList;

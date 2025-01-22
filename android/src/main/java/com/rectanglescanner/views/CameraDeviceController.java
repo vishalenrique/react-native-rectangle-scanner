@@ -24,11 +24,11 @@ import com.rectanglescanner.R;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.bridge.WritableNativeMap;
 
-import org.opencv.android.JavaCameraView;
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.opencv.core.Size;
-import org.opencv.imgproc.Imgproc;
+import org.opencv.modified.android.JavaCameraView;
+import org.opencv.modified.core.CvType;
+import org.opencv.modified.core.Mat;
+import org.opencv.modified.core.Size;
+import org.opencv.modified.imgproc.Imgproc;
 
 import java.util.List;
 

@@ -1,2 +1,13 @@
-#Wed Jan 03 10:49:45 BRST 2018
-connection.project.dir=../../../../android
+arguments=--init-script /var/folders/4h/_nmz9fy969lgjdm2qmf77d84k1_plx/T/db3b08fc4a9ef609cb16b96b200fa13e563f396e9bb1ed0905fdab7bc3bc513b.gradle --init-script /var/folders/4h/_nmz9fy969lgjdm2qmf77d84k1_plx/T/52cde0cfcf3e28b8b7510e992210d9614505e0911af0c190bd590d7158574963.gradle
+auto.sync=false
+build.scans.enabled=false
+connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(8.9))
+connection.project.dir=
+eclipse.preferences.version=1
+gradle.user.home=
+java.home=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+jvm.arguments=
+offline.mode=false
+override.workspace.settings=true
+show.console.view=true
+show.executions.view=true

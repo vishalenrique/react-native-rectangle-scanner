@@ -1,8 +1,8 @@
 package com.rectanglescanner.helpers;
 
-import org.opencv.core.Mat;
-import org.opencv.core.Point;
-import org.opencv.core.Size;
+import org.opencv.modified.core.Mat;
+import org.opencv.modified.core.Point;
+import org.opencv.modified.core.Size;
 
 /**
  * Created by Jake on Jan 6, 2020.

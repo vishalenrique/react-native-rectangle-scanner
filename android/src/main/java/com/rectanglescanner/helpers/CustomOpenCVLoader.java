@@ -22,8 +22,8 @@ import android.widget.Toast;
 
 import com.rectanglescanner.R;
 
-import org.opencv.android.LoaderCallbackInterface;
-import org.opencv.android.OpenCVLoader;
+import org.opencv.modified.android.LoaderCallbackInterface;
+import org.opencv.modified.android.OpenCVLoader;
 
 
 public class CustomOpenCVLoader extends OpenCVLoader {
@@ -61,8 +61,8 @@ public class CustomOpenCVLoader extends OpenCVLoader {
     }
 
     public static boolean isOpenCVInstalled(String Version, Context AppContext) {
-        Intent intent = new Intent("org.opencv.engine.BIND");
-        intent.setPackage("org.opencv.engine");
+        Intent intent = new Intent("org.opencv.modified.engine.BIND");
+        intent.setPackage("org.opencv.modified.engine");
         boolean result = AppContext.bindService(intent, dummyServiceConnection, Context.BIND_AUTO_CREATE);
         AppContext.unbindService(dummyServiceConnection);
         return result;
@@ -231,7 +231,7 @@ public class CustomOpenCVLoader extends OpenCVLoader {
 //                    @Override
 //                    public void onClick(DialogInterface dialog, int which) {
 //                        dialog.dismiss();
-//                        AppContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=org.opencv.engine")));
+//                        AppContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=org.opencv.modified.engine")));
 //                    }
 //                });
 //            }

@@ -17,10 +17,10 @@ import com.rectanglescanner.helpers.ImageProcessorMessage;
 import com.rectanglescanner.helpers.CapturedImage;
 import com.facebook.react.bridge.WritableMap;
 
-import org.opencv.android.BaseLoaderCallback;
-import org.opencv.android.LoaderCallbackInterface;
-import org.opencv.android.OpenCVLoader;
-import org.opencv.core.Mat;
+import org.opencv.modified.android.BaseLoaderCallback;
+import org.opencv.modified.android.LoaderCallbackInterface;
+import org.opencv.modified.android.OpenCVLoader;
+import org.opencv.modified.core.Mat;
 
 /**
   Created by Jake on Jan 6, 2020.
